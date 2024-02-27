@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Chair2.ma
-//Last modified: Mon, Feb 26, 2024 09:03:26 PM
+//Last modified: Mon, Feb 26, 2024 09:27:34 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,13 +12,13 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 22000)";
-fileInfo "UUID" "FA348DD7-49EB-3C47-A0AA-B2B9DDC2D43D";
+fileInfo "UUID" "0FBFCFB0-4249-E73D-2DE9-0CAB6A6E08AC";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "C30C09BE-428B-246A-F797-5297E16DEAA8";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -16.530749110900899 9.0556827427557813 10.640084477282695 ;
-	setAttr ".r" -type "double3" -19.08249025064945 306.16906953361024 0 ;
+	setAttr ".t" -type "double3" -17.667001637405829 2.7671196982607409 11.09222510588501 ;
+	setAttr ".r" -type "double3" -2.2824902506504428 305.36906953360415 -3.434184002379209e-16 ;
 	setAttr ".rp" -type "double3" -1.3322676295501878e-15 -1.1102230246251565e-15 0 ;
 	setAttr ".rpt" -type "double3" 2.0634795771405658e-16 -7.3395124174900659e-16 1.6312267732104265e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
